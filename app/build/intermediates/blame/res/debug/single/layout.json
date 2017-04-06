@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/res/merged/debug/layout/serialport_dataprocessview_landscape.xml",
+        "source": "/home/magichuang/桌面/android_SerialPortDemo-master/app/src/main/res/layout/serialport_dataprocessview_landscape.xml"
+    },
+    {
+        "merged": "/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/res/merged/debug/layout/serialport_dataprocessview.xml",
+        "source": "/home/magichuang/桌面/android_SerialPortDemo-master/app/src/main/res/layout/serialport_dataprocessview.xml"
+    }
+]

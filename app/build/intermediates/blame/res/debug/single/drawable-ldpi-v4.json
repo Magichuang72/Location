@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon.png",
+        "source": "/home/magichuang/桌面/android_SerialPortDemo-master/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/friendlyarm.png",
+        "source": "/home/magichuang/桌面/android_SerialPortDemo-master/app/src/main/res/drawable-ldpi/friendlyarm.png"
+    },
+    {
+        "merged": "/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/textview_bg.xml",
+        "source": "/home/magichuang/桌面/android_SerialPortDemo-master/app/src/main/res/drawable-ldpi/textview_bg.xml"
+    }
+]

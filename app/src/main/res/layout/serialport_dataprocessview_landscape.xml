@@ -1,0 +1,320 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="400dip"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:text="Zigbee" />
+
+        <ScrollView
+            android:id="@+id/scroolView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/fromTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:singleLine="false"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:text="可见光" />
+
+        <ScrollView
+            android:id="@+id/scroolView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/fromTextView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:singleLine="false"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:text="蓝牙" />
+
+        <com.friendlyarm.Utils.BorderScrollView
+            android:id="@+id/scroolView3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/fromTextView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:singleLine="false"
+                android:textColor="#000000" />
+
+        </com.friendlyarm.Utils.BorderScrollView>
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:text="Wifi" />
+
+        <com.friendlyarm.Utils.BorderScrollView
+            android:id="@+id/scroolView4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/fromTextView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:singleLine="false"
+                android:textColor="#000000" />
+
+        </com.friendlyarm.Utils.BorderScrollView>
+
+        <!--<TextView android:id="@+id/label6" android:layout_width="fill_parent" android:layout_height="20dip"-->
+        <!--android:text="@string/toDataLabel" />-->
+        <!---->
+        <!--&lt;!&ndash; <linearlayout android:focusable="true" android:focusableInTouchMode="true" android:layout_height="0px" android:layout_width="0px"> &ndash;&gt;-->
+        <!--<EditText android:id="@+id/toEditor" android:layout_width="fill_parent"-->
+        <!--android:layout_height="60dip" android:singleLine="false" android:editable="true"-->
+        <!--android:gravity="top" />-->
+        <!--  </linearlayout> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/RouterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="路由名称" />
+
+        <EditText
+            android:id="@+id/RouterEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:singleLine="false"
+            android:text="test"
+            android:textColor="#000000"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/IP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="IP" />
+
+        <EditText
+            android:id="@+id/IpText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:singleLine="false"
+            android:text="192.168.1.100"
+            android:textColor="#000000"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/Port"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="端口" />
+
+        <EditText
+            android:id="@+id/PortText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:singleLine="false"
+            android:text="3333"
+            android:textColor="#000000"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/label5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="连接情况"
+            android:textSize="9dp"/>
+
+        <TextView
+            android:id="@+id/LinkShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:singleLine="false"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/modeShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:singleLine="false"
+            android:textColor="#000000"
+            android:text="Mode"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/idShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:singleLine="false"
+            android:textColor="#000000"
+            android:text="ID"
+            android:textSize="11dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <Button
+            android:id="@+id/LinkButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StartRouter"
+            android:textSize="9dp" />
+
+        <Button
+            android:id="@+id/StartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StartSocket"
+            android:textSize="9dp" />
+
+        <Button
+            android:id="@+id/StopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StopSocket"
+            android:textSize="9dp" />
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/SocketShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="top"
+            android:singleLine="false"
+            android:textColor="#000000" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/mapSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="指纹库"
+            android:textSize="11dp"  />
+            <Button
+                android:id="@+id/mapSelect2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="测量"
+                android:textSize="11dp"  />
+            <Button
+                android:id="@+id/mapSelect3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="暂停"
+                android:textSize="11dp"  />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/idNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id+"
+            android:textSize="11dp"
+            />
+            <Button
+                android:id="@+id/idNum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="id-"
+                android:textSize="11dp"
+                />
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reset"
+                android:textSize="11dp" />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/gen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生成指纹库"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <!--<LinearLayout android:orientation="vertical" android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent" android:gravity="center_horizontal">-->
+    <!---->
+    <!--<TextView android:id="@+id/label2" android:layout_width="fill_parent" android:layout_height="20dip"-->
+    <!--/>-->
+    <!---->
+    <!--<RelativeLayout -->
+    <!--android:orientation="vertical" android:layout_width="wrap_content"-->
+    <!--android:layout_height="fill_parent">-->
+    <!--<Button android:id="@+id/sendButton" android:layout_width="fill_parent"-->
+    <!--android:layout_height="40dip" android:text="@string/sendButtonLabel"-->
+    <!--android:layout_alignParentBottom="true">-->
+    <!--</Button>-->
+    <!--</RelativeLayout>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

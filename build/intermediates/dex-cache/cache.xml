@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_236eed06a8c19d9ab2619354b6901b68b29b3183/classes.dex" />
+    </item>
+    <item
+        jar="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_4b3f1d76937a7b5d6b3a1b1ede639188128b5e50/classes.dex" />
+    </item>
+    <item
+        jar="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b7809294a0402cd582f5ca4d3f6e693cbc591ead">
+        <dex dex="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_85c430e868b6c2f33f3f91e45f0410b283edc5f8/classes.dex" />
+    </item>
+    <item
+        jar="/home/magichuang/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_0b1b6a0e28a8e1a5a2b34087ef6b98186ec7f9d7/classes.dex" />
+    </item>
+    <item
+        jar="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cc5a6e392fc91d5ddad0f3d6b4ed965172a2fe64">
+        <dex dex="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a87b958d054c08b2c4f35b4f63b12a0a9ccceea/classes.dex" />
+    </item>
+    <item
+        jar="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.0_68d59f694df0881cce9026a5d58dfec1c0969956/classes.dex" />
+    </item>
+    <item
+        jar="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/magichuang/桌面/android_SerialPortDemo-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_3053cdbe5a07aafe373ba7ee951dc3f2c456de90/classes.dex" />
+    </item>
+
+</items>

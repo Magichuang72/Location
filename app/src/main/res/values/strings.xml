@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">定位终端 </string>
+    <string name="SerialPortSettingsTitle">定位终端</string>
+    <string name="backButtonText">Back</string>
+    <string name="sendButtonLabel">Send</string>
+    <string name="CommDataViewTitle">Serial Port Assistant</string>
+    <string name="fromDataLabel">Data received:</string>
+    <string name="toDataLabel">Text to Send:</string>
+</resources>
